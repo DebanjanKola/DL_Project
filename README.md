@@ -43,7 +43,4 @@ Because there is a lack of prior deep learning literature for the MEDS problem, 
 * **Bipartite:** Message-passing GNN yielded our tightest average approximation ratio of **1.124**.
 * **Overall Dominance:** Neural models found strictly smaller, more optimal covers on 32.0% of Watts-Strogatz graphs and 28.5% of Barabási-Albert graphs. S2V-DQN consistently maintained the lowest average EDS size across all topologies.
 
-##  Conclusions & Future Work
-* **A New Standard:** Neural models are capable of consistently beating the classical 2-Approximation baseline for complex edge and vertex covering problems.
-* **Topology Matters:** There is no "one size fits all." Simple GNNs dominate Bipartite graphs, while S2V-DQN heavily dominates Small-World topologies.
-* **The Future is RL:** With its overwhelming win rate on structured graphs, Reinforcement Learning (S2V-DQN) emerges as the leading approach for future expansions of this work.
+
